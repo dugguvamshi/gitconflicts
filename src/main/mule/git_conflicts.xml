@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="git_conflictsFlow" doc:id="e178fe78-2f49-473b-9627-c52e13ecd77e" >
 		<http:listener doc:name="Listener" doc:id="93a41b9c-5179-49eb-9652-89de8460ee01" config-ref="HTTP_Listener_config" path="/git"/>
-		<logger level="INFO" doc:name="Logger" doc:id="ee61ae72-7858-4f69-85b0-f87cd8e15dd1" message="hiiiii"/>
+		<logger level="INFO" doc:name="Logger" doc:id="ee61ae72-7858-4f69-85b0-f87cd8e15dd1" message="hiiiii-hellooo"/>
 	</flow>
 </mule>
